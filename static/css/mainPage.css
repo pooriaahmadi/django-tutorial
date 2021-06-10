@@ -1,0 +1,26 @@
+.newsMain {
+    display: flex;
+    font-family: vazir;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+}
+
+.news {
+    width: 90%;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(1, 1, 1, 0.1) ;
+    transition: 0.5s;
+}
+
+.news:hover{
+    box-shadow: 10px 10px 10px 5px rgba(1, 1, 1, 0.5) ;
+    transition: 0.5s;
+}
+
+.news > .head {
+    margin-bottom: 10px;
+}
